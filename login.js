@@ -18,5 +18,5 @@ form.addEventListener('submit', (e) => {
     }
 
     // Redirection vers la page de profil
-    window.location.href = 'profil.html';
+    window.location.href = '/profil.html';
 });
