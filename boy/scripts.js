@@ -52,7 +52,7 @@ function disableCards() {
   nbVictoires++
   if (nbVictoires === 6) {
     var audioTotalWin = new Audio('/boy_totalWIN.wav');
-    audioTotalWin.volume = 0.2;
+    audioTotalWin.volume = 0.05;
     audioTotalWin.play();
     // Utiliser la fonction addScore()
     addScore(nbEssais);
